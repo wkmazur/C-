@@ -1,4 +1,4 @@
-//Przykład użycia: 2*(2+4) -> 2 2 4 + * =
+//Przyklad uzycia: 2*(2+4) -> 2 2 4 + * =
 
 #include <iostream>
 #include<stdlib.h>
