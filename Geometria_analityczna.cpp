@@ -15,7 +15,7 @@ using namespace std;
 //   tworzenie z dwóch punktów
 //   przeciêcie
 
-// okrêgi
+// okregi
 //   tworzenie z trzech punktów
 //   tworzenie ze œrodka i promienia
 //   wyznaczanie œrodka
@@ -52,7 +52,7 @@ float Point::dist(Point B)
 	return sqrt((x-B.x)*(x-B.x) + (y-B.y)*(y-B.y));
 }
 
-// mo¿liwa alternatywa:
+// mozliwa alternatywa:
 Point mid_point(Point, Point);
 
 class Line
@@ -224,14 +224,12 @@ int main()
 
 	cout << "Srodek ciezkosci trojkata: " << "S(" << S.getX() << "," << S.getY() << ")" << endl;
 
-	// DO PODPUNKTU 2
-
 	//Tworzenie okregu z punktow
 	Circle Okrag(A,B,C);
 
 	cout << "Srodek okregu opisanego: " << "S(" << Okrag.getCenter().getX() << " , " << Okrag.getCenter().getY() << ")" << endl;
 	cout << "Promien okregu opisanego: " << Okrag.getRadius() << endl;
-  cout << "Rownanie opisujace okrag: " << Okrag.getEquation() <<endl;
+  	cout << "Rownanie opisujace okrag: " << Okrag.getEquation() <<endl;
 
 	return 0;
 }
